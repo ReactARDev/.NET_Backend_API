@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document id="aprs">
+<name>1000 points of 0 stations</name>
+<Snippet>showing points during past 1 hour</Snippet>
+
+<ScreenOverlay>
+	<name>Limiting point visibility</name>
+	<Icon>
+		<href>http://aprs.fi/img/kml-limited.png</href>
+	</Icon>
+	<overlayXY x='0' y='1' xunits='fraction' yunits='fraction'/>
+	<screenXY x='0' y='1' xunits='fraction' yunits='fraction'/>
+	<rotationXY x='0' y='0' xunits='fraction' yunits='fraction'/>
+	<size x='0' y='0' xunits='fraction' yunits='fraction'/>
+</ScreenOverlay>
+
+</Document>
+
+<NetworkLinkControl>
+    <linkName>APRS: All targets in view</linkName>
+    <minRefreshPeriod>1</minRefreshPeriod>
+</NetworkLinkControl>
+</kml>
